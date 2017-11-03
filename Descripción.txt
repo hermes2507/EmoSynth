@@ -1,0 +1,20 @@
+Es un tonificador de emociones obtenidas a partir del SDK de Afectiva por medio de la cámara Web. De esta forma el SDK nos da una probabilidad de la emoción de acuerdo a los gestos faciales. Posteriormente dichas probabilidades se envían al motor de audio (emoSynth_soundEngine), un patch de Pd que genera notas de diferentes escalas y sintetizadores para cada emoción.
+
+Pendiente:
+
+Utilizar una cadena de Markov para desencadenar secuencias en diferentes tonalidades que evoquen las emociones reconocidas por afectiva. Afectiva funciona sobre un Server en Tomcat (Correr el archivo War). Utilizar el IDE eclipse para compilar el WAR.
+
+Links: 
+
+http://www.affectiva.com/
+
+Ideas:
+
+https://creators.vice.com/en_au/article/make-music-with-your-facial-expressions-using-faceosc
+
+https://www.youtube.com/watch?v=dplBh_rxoUc
+
+Un curso sobre face tracking, recognition y Detection
+
+https://www.youtube.com/watch?v=dplBh_rxoUc
+
